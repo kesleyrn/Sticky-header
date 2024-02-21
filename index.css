@@ -74,3 +74,48 @@ header.sticky ul li a
     color:#000;
 
 }
+
+
+
+.main{
+    width: 500px;
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    bottom: 12rem;
+    margin: auto;
+
+}
+.main .searchBx{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+.main .searchBx .query{
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #cccc;  
+    outline: none;
+    font-size: 18px;
+    border-radius: 30px;
+    padding-left: 40px;
+    /* background: transparent; */
+    /* padding-right: 2px; */
+}
+.main .searchBx .icons{
+    position: absolute;
+    top: 0;
+    right: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0px;
+    align-items: center;
+    cursor: pointer;
+    color: #fff;
+}
+.main .searchBx .icons img{
+    max-width: 100%;
+}
